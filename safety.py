@@ -1,7 +1,3 @@
-# safety.py
-#
-# "AI that knows when it should be cautious" — not
-# "AI that gives any answer."
 
 HIGH_RISK_KEYWORDS = [
 
@@ -47,8 +43,6 @@ def assess_confidence(retrieved_documents):
     if not retrieved_documents:
         return 0.0
 
-    # Simple MVP confidence.
-    # Later this can be replaced with a real retrieval-score-based metric.
     count = len(retrieved_documents)
 
     if count >= 3:
