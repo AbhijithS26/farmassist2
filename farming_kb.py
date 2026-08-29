@@ -1,11 +1,9 @@
-# farming_kb.py
+
 
 import chromadb
 
-# Where ChromaDB will store the local vector database
 CHROMA_PATH = "./chroma_db"
 
-# Collection name
 COLLECTION_NAME = "agricultural_knowledge"
 
 
