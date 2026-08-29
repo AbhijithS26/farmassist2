@@ -1,7 +1,5 @@
-# retriever.py
 
 from farming_kb import get_collection
-
 
 def retrieve_documents(question, crop=None, top_k=3):
     """
