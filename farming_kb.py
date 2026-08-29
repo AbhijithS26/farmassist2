@@ -29,11 +29,6 @@ def get_collection():
 
     return collection
 
-
-# Starter agricultural knowledge.
-# Replace/expand this with verified agricultural documents
-# (e.g. ICAR / state agriculture department advisories) before
-# any real-world or public submission.
 KNOWLEDGE = [
 
     # ---------------- RICE ----------------
