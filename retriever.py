@@ -10,8 +10,6 @@ def retrieve_documents(question, crop=None, top_k=3):
     """
 
     collection = get_collection()
-
-    # If crop is selected, include it in the query.
     query = question
 
     if crop:
